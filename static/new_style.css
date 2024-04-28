@@ -1,0 +1,35 @@
+body {
+   background-image: url('https://wallpaperaccess.com/full/4112935.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+ }
+
+ .header {
+   padding: 10px;
+   text-align: center;
+   color: black;
+   font-size: 20px;
+ }
+
+ button {
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   padding: 15px 30px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin-top: 20px;
+   cursor: pointer;
+   border-radius: 30px;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+   transition: all 0.3s ease-in-out;
+ }
+
+ button:hover {
+   transform: scale(1.1);
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+ }
